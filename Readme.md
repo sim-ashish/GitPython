@@ -9,4 +9,13 @@ This is a repo which Contains the **Python Pratice Code** from Basic to Advance,
 ### Basic:
 - **Syntax :** Syntax of statements, comments, keywords etc..
 - **dataTypes :** DataTypes, their Classes, Size etc...
+- **numbers :** Integer, Float, Complex...etc. Small Integer Caching (Interning)
+- **randomNumber :** Random Number generator, functions related to random module 
 
+
+
+-- 
+### Intermediate:
+
+--
+### Advance
