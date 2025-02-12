@@ -109,6 +109,9 @@ else:
 x = int(1)   # x will be 1
 y = int(2.8) # y will be 2, When we convert float to int, the decimal part is truncated.
 z = int("3") # z will be 3
+b = int("10011",2) # convert binary string to integer
+o = int("20", 8)   # convert octal string to integer
+h = int("2A9", 16) # convert hexa string to integer
 
 # Convert into float type
 
@@ -126,6 +129,7 @@ x = complex(5)
 x = str("s1") # x will be 's1'
 y = str(2)    # y will be '2'
 z = str(3.0)  # z will be '3.0'
+f_to_s = str(10E4) # '100000.0'
 
 
 ''' There are special Numbers also in python which give us Nan (Not a Number), -inf (-ve infinity), inf (infinity) '''
@@ -140,7 +144,23 @@ print(x)
 print(y)
 
 
+''' We can get binary, octal and hexadecimal values from integer'''
+x = 0b10    # It will give decimal value of 10 ---- 0b prefix tells that it is binary number
+print(x)
+
+y = 0o34    # It will give decimal value of 34 ---- 0o prefix tells that it is octal number
+print(y)
+
+z = 0x10    # It will give decimal value of 10 ----- 0x prefix tells that it is hexa number
+print(z)
 
 
+a = int("10011",2)  # Binary to Decimal
+print(a)
 
+b = int("3223",8)   # Octal to Decimal
+print(b)
+
+c = int("A32",16)   # Hex to Decimal
+print(c)
 
