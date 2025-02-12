@@ -164,3 +164,9 @@ print(b)
 c = int("A32",16)   # Hex to Decimal
 print(c)
 
+
+binary_number = bin(23336)      # give binary representation of 23336
+octal_number = oct(34)          # give octal representation of 34
+hexa_number = hex(16)           # give hexa representation of 16
+
+print(binary_number, octal_number, hexa_number)
